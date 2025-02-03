@@ -7,7 +7,7 @@ function Projects() {
     return (
         <div className='container pt-4'>
             <div className="row">
-                <h2>Projects Page</h2>
+                <h2>Projects</h2>
                 <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
                     <Masonry>
                         {projectData.map((project, index) => (

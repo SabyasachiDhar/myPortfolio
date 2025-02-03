@@ -2,6 +2,7 @@ import React from "react";
 import SkillsList from "../../components/ratingCard";
 import Slideshow from "../../components/slideShow/slideShow";
 import AboutMe from "../aboutMe/aboutMe";
+import Experience from "../experience/experience";
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <Slideshow />
       <AboutMe />
       <SkillsList />
+      <Experience />
     </div>
   );
 }

@@ -4,10 +4,15 @@ import ReadMore from "../../utils/readMore/readMore.utils";
 
 const ProjectCard = React.memo(({ project }) => (
   <Card bg="light" className="m-1">
-    <Card.Header>{project.projectName}</Card.Header>
+    <Card.Header><Card.Title>{project.projectName}</Card.Title></Card.Header>
     <Card.Body>
-      <Card.Title>{project.projectName}</Card.Title>
       <Card.Text>
+				<p>
+          <strong>Client:</strong> {project.client}
+        </p>
+				<p>
+          <strong>Duration:</strong> {project.duration}
+        </p>
         <p>
           <strong>Description:</strong> {project.description}
         </p>

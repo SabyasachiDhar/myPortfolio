@@ -1,16 +1,16 @@
 export const projectData = [
     {
         companyName: "Beverage Company",
-        date: "April 2024 August 2025",
+        duration: "April 2024 August 2025",
         projectName: "Real Time Data Dashboard",
         client: "Diagio",
         description: "This dashboard app for Diagio sales data features customizable dashboards, sales overviews, performance metrics, financial insights, and market analysis. It ensures data security with user authentication and encryption, and supports multiple languages and accessibility. The tool helps Diagio monitor financial acitivities, gain insights, and make data-driven decisions efficiently.",
-        contribution: "As a React Redux developer on the Diagio sales dashboard project, my contributions included creating and implementing Microsoft PCF (PowerApps Component Framework) control components. Utilizing React, I developed these components to seamlessly integrate and perform optimally within the dashboard application.",
+        contribution: "As a React Redux developer on the Diagio sales dashboard project, my contributions included creating and implementing Microsoft PCF (PowerApps Component Framework) control components. Utilizing React, I developed these components to seamlessly integrate and perform optimally within the dashboard",
         projectDetailsMore: 'Additionally, I leveraged Chart.jsand D3.js to create dynamic and interactive data visualizations, enhancing the presentation of sales data and insights. I managed the publication process of these PCF components, ensuring their deployment and accessibility. My work on this project helped Diagio improve sales monitoring and decision-making processes. Manage ADO (Azure DevOps) for the project, creating and managing user stories, tasks, and sprints. I collaborated with the back-end team to ensure seamless integration of front-end components with the server-side logic.'
     },
     {
         companyName: "US Based Insurance Company",
-        date: "July 2020 to Mearch 2024",
+        duration: "July 2020 to Mearch 2024",
         projectName: "Insurance Policy Management System",
         client: "Guidewire",
         description: "This insurance policy management system is a web application that allows users to manage insurance policies, claims, billings and customer information. It features a user-friendly interface, secure data storage, and real-time updates. The system helps insurance companies streamline policy management, improve customer service, and enhance data security.",
@@ -19,7 +19,7 @@ export const projectData = [
     },
     {
         companyName: "US Based Key Compititors Insigt tool",
-        date: "August 2018 to March 2020",
+        duration: "August 2018 to March 2020",
         projectName: "Bluesky (Bluemine)",
         client: "IBM",
         description: "This application is a kind of a tools to view the key competitors insights and generate the report as per the user's requirement. This tool is used by the IBM sales team to get the insights of the key competitors and their different segment report.",
@@ -27,8 +27,8 @@ export const projectData = [
         projectDetailsMore: ''
     },
     {
-        companyName: "",
-        date: "Nov 2016 to June 2017",
+        companyName: "Nextgen",
+        duration: "Nov 2016 to June 2017",
         projectName: "Nextgen",
         client: "IBM",
         description: "Migration projects to cloud automatically and generate report.",
@@ -37,10 +37,10 @@ export const projectData = [
     },
     {
         companyName: "Cognitive Content Collator",
-        date: "Nov 2016 to June 2017",
-        projectName: "This is a Learning site for internal use for IBM.",
+        duration: "Nov 2016 to June 2017",
+        projectName: "Cognitive Content Collator(C3)",
         client: "IBM",
-        description: "this application is a kind of a tools to manage apple product manufacturing information detail as well as manufacturers product insights.",
+        description: "This is a Learning site for internal use for IBM.",
         contribution: "Development using HTML5, CSS and CSS3, Angular js, jQuery, Javascript",
         projectDetailsMore: ''
     },
@@ -231,5 +231,32 @@ export const skillData = [
     ],
   },
 ];
+
+export const experienceData = [
+    {
+        startDate: "26th June 2016",
+        endDate: "Till date",
+        company: "Ernst & Young(GDS) India",
+        role: "Tech Lead",
+      },
+    {
+      startDate: "7th September 2016",
+      endDate: "January 2020",
+      company: "Infinite Computer Solution (Client Location IBM Bangalore)",
+      role: "Software Engineer",
+    },
+    {
+      startDate: "2nd January 2014",
+      endDate: "1st September 2016",
+      company: "Radikal Labs (Kolkata)",
+      role: "UI/UX Developer",
+    },
+    {
+      startDate: "3rd March 2011",
+      endDate: "December 2012",
+      company: "W3 Interactive Systems (Kolkata)",
+      role: "Jr. Web Designer",
+    },
+  ];
 
 export const aboutDescription = `"Seasoned front-end developer with 12 years of extensive experience in designing and implementing user interfaces for various platforms. Proven ability to develop responsive and visually appealing web applications using cutting-edge technologies like React, Angular, and Vue.js. Strong background in collaborating with cross-functional teams to deliver high-quality projects on time. Passionate about creating seamless and engaging user experiences. Seeking to leverage my expertise and creativity to drive the development of innovative and user-centric digital solutions."`
