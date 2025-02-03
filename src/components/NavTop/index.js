@@ -10,7 +10,7 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={NavLink} exact to="/" activeClassName="active">Home</Nav.Link> 
+                        <Nav.Link as={NavLink} exact to="/myPortfolio" activeClassName="active">Home</Nav.Link> 
                         <Nav.Link as={NavLink} to="/about" activeClassName="active">My Stories</Nav.Link> 
                         <Nav.Link as={NavLink} to="/projects" activeClassName="active">Projects</Nav.Link> 
                         {/* <Nav.Link as={NavLink} to="/contact" activeClassName="active">Contact</Nav.Link> */}
