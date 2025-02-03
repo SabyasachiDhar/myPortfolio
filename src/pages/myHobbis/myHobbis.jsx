@@ -12,6 +12,7 @@ const MyHobbies = () => {
         <li><strong>Hiking:</strong> Exploring nature trails and hiking up mountains is a great way for me to stay active and enjoy the outdoors.</li>
         <li><strong>Gaming:</strong> I'm a big fan of video games and love playing both single-player and multiplayer games in my free time.</li>
         <li><strong>Cooking:</strong> Experimenting with new recipes and cooking delicious meals is a fun and rewarding hobby for me.</li>
+        <li><strong>Drawing:</strong> creative side through drawing and sketching is a relaxing and enjoyable activity that I like to do in my free time.</li>
       </ul>
     </section>
   );

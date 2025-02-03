@@ -23,7 +23,7 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a href="/path/to/cv.pdf" download="CV.pdf">Download CV</a>
+                <a href={`${process.env.PUBLIC_URL}/files/sachisresume.pdf`} download="sachisresume.pdf">Download CV</a>
               </p>
             </section>
           </Col>

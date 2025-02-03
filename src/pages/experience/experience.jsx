@@ -4,7 +4,7 @@ import { experienceData } from "../../data/data";
 const Experience = () => {
   return (
     <section className="my-4">
-      <h2>Experience</h2>
+      <h2>My Experience</h2>
       {experienceData.map((item, index) => (
         <div key={index}>
           <p>

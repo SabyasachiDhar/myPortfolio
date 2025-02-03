@@ -3,10 +3,10 @@ export const projectData = [
         companyName: "Beverage Company",
         duration: "April 2024 August 2025",
         projectName: "Real Time Data Dashboard",
-        client: "Diagio",
-        description: "This dashboard app for Diagio sales data features customizable dashboards, sales overviews, performance metrics, financial insights, and market analysis. It ensures data security with user authentication and encryption, and supports multiple languages and accessibility. The tool helps Diagio monitor financial acitivities, gain insights, and make data-driven decisions efficiently.",
-        contribution: "As a React Redux developer on the Diagio sales dashboard project, my contributions included creating and implementing Microsoft PCF (PowerApps Component Framework) control components. Utilizing React, I developed these components to seamlessly integrate and perform optimally within the dashboard",
-        projectDetailsMore: 'Additionally, I leveraged Chart.jsand D3.js to create dynamic and interactive data visualizations, enhancing the presentation of sales data and insights. I managed the publication process of these PCF components, ensuring their deployment and accessibility. My work on this project helped Diagio improve sales monitoring and decision-making processes. Manage ADO (Azure DevOps) for the project, creating and managing user stories, tasks, and sprints. I collaborated with the back-end team to ensure seamless integration of front-end components with the server-side logic.'
+        client: "Diageo",
+        description: "This dashboard app for Diageo sales data features customizable dashboards, sales overviews, performance metrics, financial insights, and market analysis. It ensures data security with user authentication and encryption, and supports multiple languages and accessibility. The tool helps Diageo monitor financial acitivities, gain insights, and make data-driven decisions efficiently.",
+        contribution: "As a React Redux developer on the Diageo sales dashboard project, my contributions included creating and implementing Microsoft PCF (PowerApps Component Framework) control components. Utilizing React, I developed these components to seamlessly integrate and perform optimally within the dashboard",
+        projectDetailsMore: 'Additionally, I leveraged Chart.jsand D3.js to create dynamic and interactive data visualizations, enhancing the presentation of sales data and insights. I managed the publication process of these PCF components, ensuring their deployment and accessibility. My work on this project helped Diageo improve sales monitoring and decision-making processes. Manage ADO (Azure DevOps) for the project, creating and managing user stories, tasks, and sprints. I collaborated with the back-end team to ensure seamless integration of front-end components with the server-side logic.'
     },
     {
         companyName: "US Based Insurance Company",
@@ -18,7 +18,7 @@ export const projectData = [
         projectDetailsMore: "Additionally, manage ADO (Azure DevOps) for the project, creating and managing user stories, tasks, and sprints. I collaborated with the back-end team to ensure seamless integration of front-end components with the server-side logic."
     },
     {
-        companyName: "US Based Key Compititors Insigt tool",
+        companyName: "US Based Key Competitors Insight tool",
         duration: "August 2018 to March 2020",
         projectName: "Bluesky (Bluemine)",
         client: "IBM",
@@ -159,7 +159,7 @@ export const skillData = [
   },
   {
     skilId: 2,
-    skillType: "SDLC Methidologies",
+    skillType: "SDLC Methodologies",
     skillNames: [
       { name: "Waterfall", rating: 4 },
       { name: "Scrum & Agile", rating: 4 },
@@ -199,6 +199,7 @@ export const skillData = [
       { name: "PostgreSQL", rating: 2.5 },
       { name: "Azure", rating: 2.5 },
       { name: "Netlify", rating: 2.5 },
+      { name: "Vite", rating: 3 },
       { name: "Next.js", rating: 2 },
     ],
   },
@@ -208,6 +209,7 @@ export const skillData = [
     skillNames: [
       { name: "Jest", rating: 4 },
       { name: "Enzyme", rating: 4 },
+      { name: "Storybook", rating: 4 },
     ],
   },
   {
@@ -224,9 +226,7 @@ export const skillData = [
       { name: "Problem-solving", rating: 4 },
       { name: "Adaptability", rating: 4 },
       { name: "Time Management", rating: 4 },
-      { name: "Conflict Management", rating: 4 },
       { name: "Leadership", rating: 4 },
-      { name: "Strategic Thinking", rating: 4 },
       { name: "Interpersonal Skills", rating: 4 },
     ],
   },
@@ -234,7 +234,7 @@ export const skillData = [
 
 export const experienceData = [
     {
-        startDate: "26th June 2016",
+        startDate: "26th June 2020",
         endDate: "Till date",
         company: "Ernst & Young(GDS) India",
         role: "Tech Lead",
@@ -259,4 +259,4 @@ export const experienceData = [
     },
   ];
 
-export const aboutDescription = `"Seasoned front-end developer with 12 years of extensive experience in designing and implementing user interfaces for various platforms. Proven ability to develop responsive and visually appealing web applications using cutting-edge technologies like React, Angular, and Vue.js. Strong background in collaborating with cross-functional teams to deliver high-quality projects on time. Passionate about creating seamless and engaging user experiences. Seeking to leverage my expertise and creativity to drive the development of innovative and user-centric digital solutions."`
+export const aboutDescription = `"Seasoned front-end developer with thirteen plus years of extensive experience in designing and implementing user interfaces for various platforms. Proven ability to develop responsive and visually appealing web applications using cutting-edge technologies like React, Angular, and Vue.js.Strong background in collaborating with cross-functional teams to deliver high-quality projects on time. Passionate about creating seamless and engaging user experiences. Demonstrated leadership skills through leading teams in various projects, mentoring junior developers, and facilitating efficient workflows. Adept at conducting code reviews, setting development standards, and ensuring best practices are followed. Seeking to leverage my expertise and creativity to drive the development of innovative and user-centric digital solutions."`
