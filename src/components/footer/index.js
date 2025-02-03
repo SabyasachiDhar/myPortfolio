@@ -15,11 +15,11 @@ const Footer = () => {
               <p>
                 LinkedIn: 
                 <a
-                  href="https://www.linkedin.com/in/john-doe"
+                  href="www.linkedin.com/in/sabyasachi-dhar-1020166a"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  linkedin.com/in/john-doe
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </p>
               <p>
