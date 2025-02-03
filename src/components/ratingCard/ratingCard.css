@@ -1,0 +1,41 @@
+.rating-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.rating-card .title {
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.rating-card .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.rating-card .rating span {
+    font-size: 2em;
+    color: #ffcc00;
+    margin: 0 4px;
+}
+
+.rating-card .description {
+    font-size: 1em;
+    color: #666;
+}
+
+.skill-card {
+    flex: 1 0 21%; /* Adjust the percentage as needed to fit exactly 4 cards in a row */
+    margin-left: 1%; /* Add left margin between the cards */
+    margin-right: 1%; /* Add right margin between the cards */
+    min-width: 200px; /* Set a minimum width to prevent cards from becoming too small */
+  }
