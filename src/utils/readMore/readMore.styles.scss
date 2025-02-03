@@ -1,0 +1,7 @@
+.custom-link {
+    box-shadow: none;
+    vertical-align: unset;
+    &:focus {
+        box-shadow: none;
+    }
+}

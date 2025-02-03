@@ -5,6 +5,7 @@ import About from './pages/about/index';
 import Contact from './pages/contact/index';
 import Projects from './pages/projects/index';
 import NavBar from './components/NavTop';
+import Footer from './components/footer';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/projects" element={<Projects />} />
                 </Routes>
+                <Footer />
             </div>
         </Router>
     );

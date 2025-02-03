@@ -10,7 +10,9 @@
     "react-dom": "^19.0.0",
     "react-responsive-masonry": "^2.6.0",
     "react-router-dom": "^7.1.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4"
   },
   "homepage": "https://SabyasachiDhar.github.io/myPortfolio",
   "scripts": {
