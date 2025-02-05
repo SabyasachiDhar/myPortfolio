@@ -15,9 +15,9 @@ const Footer = () => {
               <p>
                 LinkedIn: 
                 <a
-                  href="www.linkedin.com/in/sabyasachi-dhar-1020166a"
+                  href="https://www.linkedin.com/in/sabyasachi-dhar-1020166a"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   <i class="fa-brands fa-linkedin"></i>
                 </a>

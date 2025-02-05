@@ -1,41 +1,74 @@
-import React, { memo, useMemo, useEffect } from "react";
+import React, { memo } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Tooltip, OverlayTrigger } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { skillData } from "../../data/data";
 
 // StarRating component
 const StarRating = ({ rating }) => {
-  const stars = useMemo(
-    () =>
-      Array.from({ length: 5 }, (_, i) => (
-        <OverlayTrigger
-          key={i}
-          placement="bottom"
-          overlay={<Tooltip>Skill rate: {rating}</Tooltip>}
-        >
-          <i
-            style={{ fontSize: "1rem" }}
-            className={`fa-star ${
-              i < Math.round(rating) ? "fas text-warning" : "far text-muted"
-            }`}
-          ></i>
-        </OverlayTrigger>
-      )),
-    [rating]
-  );
-
-  useEffect(() => {
-    // Initialize Bootstrap tooltips
-    const tooltipTriggerList = [].slice.call(
-      document.querySelectorAll('[data-toggle="tooltip"]')
-    );
-    tooltipTriggerList.map(
-      (tooltipTriggerEl) => new window.bootstrap.Tooltip(tooltipTriggerEl)
-    );
-  }, []);
-
-  return <div>{stars}</div>;
+  return (
+  <div className="rating">
+    <span>
+      <i
+        style={{ color: "#f39c12" }}
+        className={
+          rating >= 1
+            ? "fas fa-star"
+            : rating >= 0.5
+            ? "fas fa-star-half-alt"
+            : "far fa-star"
+        }
+      ></i>
+    </span>
+    <span>
+      <i
+        style={{ color: "#f39c12" }}
+        className={
+          rating >= 2
+            ? "fas fa-star"
+            : rating >= 1.5
+            ? "fas fa-star-half-alt"
+            : "far fa-star"
+        }
+      ></i>
+    </span>
+    <span>
+      <i
+        style={{ color: "#f39c12" }}
+        className={
+          rating >= 3
+            ? "fas fa-star"
+            : rating >= 2.5
+            ? "fas fa-star-half-alt"
+            : "far fa-star"
+        }
+      ></i>
+    </span>
+    <span>
+      <i
+        style={{ color: "#f39c12" }}
+        className={
+          rating >= 4
+            ? "fas fa-star"
+            : rating >= 3.5
+            ? "fas fa-star-half-alt"
+            : "far fa-star"
+        }
+      ></i>
+    </span>
+    <span>
+      <i
+        style={{ color: "#f39c12" }}
+        className={
+          rating >= 5
+            ? "fas fa-star"
+            : rating >= 4.5
+            ? "fas fa-star-half-alt"
+            : "far fa-star"
+        }
+      ></i>
+    </span>
+  </div>
+  )
 };
 
 // RatingCard component
