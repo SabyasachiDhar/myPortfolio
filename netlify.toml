@@ -1,0 +1,21 @@
+[build]
+  base = "myPortfolio"
+  publish = "myPortfolio/build"
+  command = "npm run build"
+
+[functions]
+  directory = "myPortfolio/functions"
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.deploy-preview]
+  command = "npm run build"
+  publish = "myPortfolio/build"
+
+[context.branch-deploy]
+  command = "npm run build"
+  publish = "myPortfolio/build"
+
+[context.next.environment]
+  NODE_ENV = "production"
